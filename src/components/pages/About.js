@@ -1,9 +1,18 @@
 import React from "react";
 
 function About() {
+  const styles = {
+    backgroundImage: "url(https://i.pinimg.com/originals/ed/b9/33/edb933cbda54641ce3a171bf48a28bde.jpg)",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover"
+  };
   return (
     <div>
-      <h1>About Page</h1>
+      <div className="jumbotron-fluid text-center text-white" style={styles}>
+      <br/>
+      <h1 className="my-5">About Page</h1>
+      <br/>
+      </div>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
         mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
